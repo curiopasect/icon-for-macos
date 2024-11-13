@@ -37,5 +37,18 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+ ],
+  "display": "standalone",
+  "theme_color": "#6E3E22",
+  "background_color": "#6E3E22",
+  "id": "cafekalya",
+  "description": "عصر دنج و دوست‌داشتنی تو کافه کالیا: وبستایت و منوی دیجیتال",
+  "dir": "rtl",
+  "scope": "/",
+  "lang": "fa",
+  "orientation": "portrait-primary",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
