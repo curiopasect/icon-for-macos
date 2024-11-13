@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-    <div id="assetValue">Loading...</div>
+    <div id="assetValue">درحال بارگذاری...‏</div>
 
     <script>
         const BTC_AMOUNT = 0.001347;
@@ -74,7 +74,7 @@
                     document.getElementById('assetValue').textContent = `$${assetValue.toFixed(2)}`;
                 })
                 .catch(error => {
-                    document.getElementById('assetValue').textContent = 'Error loading data';
+                    document.getElementById('assetValue').textContent = 'بارگذاری شکست خورد. دوباره امتحان کنید.‏';
                     console.error('Error:', error);
                 });
         }
