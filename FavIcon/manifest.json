@@ -1,5 +1,5 @@
 {
- "name": "بیت‌کوین‌های من",
+ "name": "بیت‌کوین‌های سعیده",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -42,7 +42,7 @@
   "theme_color": "#6E3E22",
   "background_color": "#6E3E22",
   "id": "cafekalya",
-  "description": "عصر دنج و دوست‌داشتنی تو کافه کالیا: وبستایت و منوی دیجیتال",
+  "description": "مقدار بیت‌کوین‌های سعیده به صورت زنده",
   "dir": "rtl",
   "scope": "/",
   "lang": "fa",
