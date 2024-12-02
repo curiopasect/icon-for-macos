@@ -1,5 +1,5 @@
 {
- "name": "بیت‌کوین‌های سعیده",
+ "name": "Icon",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -41,11 +41,11 @@
   "display": "standalone",
   "theme_color": "#6E3E22",
   "background_color": "#6E3E22",
-  "id": "cafekalya",
-  "description": "مقدار بیت‌کوین‌های سعیده به صورت زنده",
-  "dir": "rtl",
+  "id": "ajsdhfiljasdf",
+  "description": "Icon",
+  "dir": "ltr",
   "scope": "/",
-  "lang": "fa",
+  "lang": "en",
   "orientation": "portrait-primary",
   "display_override": [
     "standalone",
