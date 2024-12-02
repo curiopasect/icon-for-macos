@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بیت‌کوین‌های سعیده</title>
+    <title>ICON</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -43,44 +43,7 @@
 
     <!-- Manifest file -->
     <link rel="manifest" href="FavIcon/manifest.json">
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            font-size: 4em; /* Increased font size */
-            font-weight: bold;
-            color: white;
-            background-color: #f7931a; /* Bitcoin orange */
-            text-align: center;
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
-    <div id="assetValue">درحال بارگذاری...‏</div>
-
-    <script>
-        const BTC_AMOUNT = 0.001347;
-
-        function updateAssetValue() {
-            fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
-                .then(response => response.json())
-                .then(data => {
-                    const btcPrice = data.bitcoin.usd;
-                    const assetValue = btcPrice * BTC_AMOUNT;
-                    document.getElementById('assetValue').textContent = `$${assetValue.toFixed(2)}`;
-                })
-                .catch(error => {
-                    document.getElementById('assetValue').textContent = 'بارگذاری شکست خورد. دوباره امتحان کنید.‏';
-                    console.error('Error:', error);
-                });
-        }
-
-        // Call the function to fetch and display the asset value
-        updateAssetValue();
-    </script>
 </body>
 </html>
